@@ -1,0 +1,18 @@
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+#nota-mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+    color: red;
+}

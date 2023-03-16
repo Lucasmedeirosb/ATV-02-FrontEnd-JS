@@ -1,0 +1,30 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+label {
+	display: inline-block;
+	width: 250px;
+}
+
+input {
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+button {
+	padding: 10px;
+	background-color: #008CBA;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #005F6B;
+}

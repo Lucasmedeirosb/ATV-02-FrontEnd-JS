@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>População dos Países</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>População dos Países</h1>
+	<label for="popA">População do País A:</label>
+	<input type="number" id="popA" value="80000">
+	<br>
+	<label for="taxaA">Taxa de Crescimento do País A (%):</label>
+	<input type="number" id="taxaA" value="3">
+	<br>
+	<label for="popB">População do País B:</label>
+	<input type="number" id="popB" value="200000">
+	<br>
+	<label for="taxaB">Taxa de Crescimento do País B (%):</label>
+	<input type="number" id="taxaB" value="1.5">
+	<br>
+	<button onclick="calcularAnos()">Calcular</button>
+	<p id="resultado"></p>
+	<script src="script.js"></script>
+</body>
+</html>
